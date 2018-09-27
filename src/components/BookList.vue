@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>{{title}}</h1>
+        <h1>{{ title }}</h1>
     </div>
 </template>
 
@@ -8,13 +8,12 @@
 export default {
     name : 'BookList',
     data() {
-        return
-        {
-            title:'All books'
-        }
-    }
+        return{
+            title : 'All Books'
+        };
+    },
+};
 
-}
 </script>
 
 <style>
