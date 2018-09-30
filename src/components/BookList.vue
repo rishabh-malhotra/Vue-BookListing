@@ -11,12 +11,12 @@
 
 <script>
 import BookItem from './BookItem';
-import BookForm from './BookForm' 
+import BookForm from './BookForm';
 export default {
     name : 'BookList',
     components : {
         BookItem,
-        BookForm 
+        BookForm
     },
     data() {
         return{
@@ -43,5 +43,5 @@ export default {
     ul{
         list-style-type: none;
         padding: 0;
-    }  
+    }
 </style>
